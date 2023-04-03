@@ -1,0 +1,58 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Larizo";
+}
+.searchbox{
+  width: 90%;
+  margin: 10px auto;
+}
+.header{
+  background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+  overflow: hidden;
+  padding: 20px;
+  text-align: center;
+}
+.header h1{
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+  margin-bottom: 8px;
+}
+#value{
+  border: none;
+  background: #fff;
+  padding: 6px;
+  font-size: 18px;
+  width: 80%;
+  border-radius: 6px;
+  color: black;
+}
+#value:focus{
+  outline: none;
+}
+.container{
+  background: #fff;
+  padding: 1%;
+}
+.item{
+  margin: 3% 0px;
+  display: flex;
+  align-items: center;
+}
+.icon{
+  width: 25px;
+  height: 25px;
+  background: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  line-height: 25px;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+.name{
+  font-size: 20px;
+  font-weight: 470;
+  color: black;
+}

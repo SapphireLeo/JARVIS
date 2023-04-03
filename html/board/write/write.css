@@ -1,0 +1,237 @@
+html{
+    display:block;
+}
+
+body{
+    font-family: "JejuMyeongjo";
+    height:100%;
+}
+
+header{
+    width:100%; height:20%;
+    position:relative;
+    display:block;
+}
+
+#write_wrap{
+    width: 60%; height: 70%; 
+    display:block;
+    padding-bottom:5%;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+#write_title{
+    width:100%; height:100%;
+    display : block;
+    margin : auto;
+
+    position    : absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+
+    display     : flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 7rem;
+}
+
+.goto_board{
+
+    width:50%; height:50%;
+    position:absolute;
+    right:10%; top: 50%;
+    transform: translate(-20%,-50%);
+
+    display     : flex;
+    justify-content: right;
+    align-items: end;
+    
+    margin-bottom:0%;
+
+    font-size:2rem;
+    font-family:"NotoSans";
+    font-style:italic;
+}
+
+#writer{
+    width:80%; height:60px;
+    padding:0.5rem 10% 0.5rem 10%;
+
+    display     : flex;
+    justify-content: left;
+    align-items: center;
+
+    font-size : 3rem;
+}
+
+#write_header{
+    width:100%;
+    height:10%;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+#write{
+    height:90%;
+}
+
+#write_header p{
+    width:60%;
+
+    font-size:2.5rem;
+    
+
+    display:flex;
+    justify-content:left;
+    align-items:center;
+}
+
+#write_header div{
+    width:40%;
+
+    font-size:2rem;
+    font-weight:600;
+
+    display:flex;
+    justify-content:right;
+    align-items:center;
+
+    border-left:1px solid darkgrey;
+}
+
+#write form{
+    width:100%;
+    height:100%;
+}
+
+#text_input{
+    width:100%;
+    height:64%;
+}
+
+#text_input textarea{
+    width:100%;
+    height:100%;
+    padding:1.2rem 2% 1.5rem 2%;
+    resize:none;
+
+    font-family:"JejuMyeongjo";
+    font-size:1.5rem;
+
+    border: 1px solid darkgrey;
+    border-radius:1px;
+}
+
+#hash_tag_input{
+    width:100%;
+    height:10%;
+    position:relative;
+}
+
+#hash_tag_input p{
+    height:60%;
+    width:20%;
+
+    position:absolute;
+    left: 0%; top: 50%;
+    transform: translate(0%,-50%);
+
+    display:flex;
+    justify-content: right;
+    align-items: center;
+
+    font-size : 1.6rem;
+}
+
+#hash_tag_input input{
+    height:60%;
+    width:75%;
+
+    border-radius: 2px;
+
+    position:absolute;
+    right: 0%; top: 50%;
+    transform: translate(0%,-50%);
+
+    font-size : 1.5rem;
+    font-family:"JejuMyeongjo";
+}
+
+#image_input{
+    width:100%;
+    height:10%;
+    position:relative;
+}
+
+#image_input .upload_name{
+    width:70%; height:60%;
+    position:absolute;
+    left: 0%; top: 50%;
+    transform: translate(0%,-50%);
+
+    border: 1px solid #dddddd;
+    color: #999999;
+    border-radius: .25em;
+
+    font-family:inherit;
+    font-size: 1.5rem;
+}
+
+#image_input label {
+    width:20%; height:60%;
+    position:absolute;    
+    right: 0%; top: 50%;
+    transform: translate(0%,-50%);
+
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: normal;
+    color: white;
+
+    background-color: darkgrey;
+
+    cursor: pointer;
+
+    border: 1px solid transparent;
+    border-radius: .25em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image_input input[type="file"]{
+    position:absolute;
+    width: 0px;
+    height: 0px;
+    padding: 0;
+    margin: 0px;
+    overflow: hidden;
+    border: 0;
+}
+
+#write .foot{
+    width:100%;
+    height:16%;
+
+    display: flex;
+    justify-content: center;
+    align-items: bottom;
+}
+#write .foot .form_btn{
+    width:100%;
+    height:75%;
+    margin: auto auto 0 auto;
+
+    font-family:inherit;
+    font-size: 2.25rem;
+}
+
+
+footer{
+    width:100%;
+}

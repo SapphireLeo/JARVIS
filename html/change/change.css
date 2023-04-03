@@ -1,0 +1,50 @@
+#change_wrap{
+    width: 500px; height: 65%; 
+}
+@media (max-width: 1000px){
+    #change_wrap{
+        width: 50%; height: 65%; 
+    }
+}
+
+#change_title{
+    width: 100%;
+    height: 25%;
+    font-size: 8rem;
+}
+
+#change_form{
+    width: 100%;
+    height: 65%;
+    font-size: 2rem;
+    display:block;
+}
+
+#change_form div{
+    width: 100%;
+    height:77%;
+    display:block;
+}
+
+#change_form div p{
+    width: 100%;
+    height:27%;
+    display:block;
+}
+
+#change_form footer{
+    width: 100%;
+    height:23%;
+    display:block;
+}
+
+.goto_login{
+    width : 100%;
+    height : 10%;
+    font-size: 1.5rem;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+

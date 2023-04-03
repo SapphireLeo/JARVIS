@@ -1,0 +1,63 @@
+#register_wrap{
+    width: 500px; height: 80%; 
+}
+@media (max-width: 1000px){
+    #login_wrap{
+        width: 50%; height: 80%; 
+    }
+}
+
+#register_title{
+    width: 100%;
+    height: 20%;
+    font-size: 8rem;
+}
+
+#register_form{
+    width: 100%;
+    height: 70%;
+    font-size: 2rem;
+    display:block;
+}
+
+#register_form div{
+    width: 100%;
+    height:85%;
+    display:block;
+}
+
+#register_form div p{
+    width: 100%;
+    height:16%;
+    display:block;
+}
+
+#location_do{
+    width: 48%;
+    height:85%;
+    display:block;
+    float:left;
+}
+
+#location_city{
+    width: 48%;
+    height:85%;
+    display:block;
+    float:right;
+}
+
+#register_form footer{
+    width: 100%;
+    height:15%;
+    display:block;
+}
+
+.goto_login{
+    width : 100%;
+    height : 10%;
+    font-size: 1.5rem;
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

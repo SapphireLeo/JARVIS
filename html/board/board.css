@@ -1,0 +1,227 @@
+#board_wrap{
+    width: 90%; height: 75%; 
+    flex-direction: column;
+}
+
+header{
+    width:100%; height:15%;
+    display     : flex;
+    position    : relative;
+    justify-content: right;
+    align-items: center;
+    pointer-events: auto;
+}
+
+header #profile{
+    height:50%;
+    float:right;
+    width:30%;
+
+    display:flex;
+    align-items: center;
+    justify-content: right;
+
+    /* for cursor:pointer option, make sure it is top of the other divs. */
+    z-index: 5;
+}
+
+header #profile p{
+    font-size : 2.5rem;
+    font-family: "JejuMyeongjo";
+
+    margin-right: 5%;
+
+    /* for cursor:pointer option, make sure it is top of the other divs. */
+}
+
+header img{
+    border-radius: 100%;
+    height:8rem;
+    width: 8rem;
+    float:right;
+    margin-right: 15%;
+    cursor:pointer;
+
+    /* for cursor:pointer option, make sure it is top of the other divs. */
+}
+
+header #profile:hover, #profile p:hover, #profile img:hover{
+    cursor:pointer;
+    pointer-events: auto;
+}
+
+#board_title{
+    width:100%; height:50%;
+    display : block;
+    margin : auto;
+    position:absolute;
+}
+
+#board_title{
+    width:100%; height:40%;
+   
+    position    : absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+
+    display     : flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 7rem;
+}
+
+#board_wrap p.menubar{
+    width:80%;
+    padding-left:10%;
+    padding-right: 10%;
+    padding-bottom: 2rem;
+    margin:auto;
+
+    border-bottom: 1px solid darkgrey;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#board_wrap p.menubar a{
+    width:25%;
+
+    font-size: 2rem;
+    font-family:"JejuMyeongjo";
+
+    border-right: 1px solid darkgrey;
+    border-left: 1px solid darkgrey;
+
+    cursor:pointer;
+}
+
+#board_wrap iframe{
+    width:100%;
+    height:90%;
+    border:none;
+}
+
+body.frame{
+    background-image: none;
+}
+
+.article_list{
+    display:block;
+    margin:auto;
+    width:90%;
+    height:100%;
+    overflow:auto;
+}
+
+.article_list p{
+    height:15%;
+    
+    border-image-slice:1;
+    border: 3px solid;
+    margin:3px;
+
+    font-family:"JejuMyeongjo";
+    font-size : 1.25rem;
+
+    border: 2px solid transparent;
+    border-radius: 50%;
+    border-image:linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+    border-image-slice: 1;
+
+    position:relative;
+    cursor:pointer;
+}
+
+.article_list p table{
+    width:100%;
+    height:90%;
+
+    position    : absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.article_list thead{
+    text-align:right;
+    width:50%;
+}
+
+.article_list th{
+    font-family:"JejuMyeongjo";
+    font-size:2.5rem;
+    font-weight:800;
+    text-align:left;
+
+    width:60%;
+    padding-left:1%;
+}
+
+.article_list thead .hit{
+    font-size:1.75rem;
+    font-weight:800;
+
+    width:20%;
+    padding-right:2%;
+}
+
+.article_list thead .time{
+    width:20%;
+    font-size:1.25rem;
+
+    padding-right:2%;
+    border-left: 1px solid black;
+}
+
+.article_list tbody td{
+    font-size:1.75rem;
+    text-align:left;
+
+    width:100%;
+    padding-left:1%;
+}
+
+footer{
+    width:100%; height:10%;
+    position:relative;
+}
+
+footer div{
+    width:90%;  height:50%;
+    position    : absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+
+    display : flex;
+    justify-content:space-between;
+}
+
+footer .form_btn {
+    width:10%; height:100%;
+    border-radius:2px;
+}
+
+.search{
+    width:89%; height:8%;
+    margin:auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-radius: 2px;
+}
+    .search img{
+        height:40%;
+        margin-left: 5%;
+        margin-right: 3%;
+    }
+
+    .search input{
+        width: 80%; height:60%;
+        font-size: 1.5rem;
+        font-weight: 500;
+
+        border: 1px solid darkgrey;
+        border-radius:2px;
+        color:black;
+        padding-left: 1rem;
+    }

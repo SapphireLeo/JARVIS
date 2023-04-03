@@ -1,0 +1,28 @@
+<head>
+    <link rel="stylesheet" href="../css/main.css?after">
+    <link rel="stylesheet" href="../css/metapage.css?after">
+    <link rel="stylesheet" href="./register.css?after">
+</head>
+<body class="tema">
+    <div id="register_wrap" class="wrap">
+        <div class="contents">
+            <h1 id="register_title" class="title">Jarvis</h1>
+            <form id="register_form" action="register.php" method="post">
+                <div>
+                <p><input type="text" name="ID" id="ID" placeholder="ID" required></p>
+                <p><input type="password" name="password1" id="pasword1" placeholder="Password" required></p>
+                <p><input type="password" name="password2" id="password2" placeholder="Password Again" required></p>
+                <p><input type="text" name="nickname" id="Nickname" placeholder="Nickname" required></p>
+                <p id="location">
+                    <input type="text" name="location_do" id="location_do" placeholder="location(do)" required>
+                    <input type="text" name="location_city" id="location_city" placeholder="location(si/gun)" required>
+                </p>
+                <p><input type="date" name="birthday" id="birthday" class="korean"
+                    style="font-size: 15px;" required></p>
+                </div>
+                <footer><input type="submit" value="register" class="form_btn"></footer>
+            </form>
+            <p class="goto_login">Already a member? &nbsp; <a href="../login/login.html" class="text_highlight">Sign in</a></p>
+        </div>
+    </div>
+</body>

@@ -1,0 +1,253 @@
+html{
+    display:block;
+}
+
+body{
+    font-family: "JejuMyeongjo";
+    height:auto;
+}
+
+header{
+    width:100%; height:20rem;
+    position:relative;
+    display:block;
+}
+
+#read_wrap{
+    width: 70%; height: auto; 
+    display:block;
+    padding-bottom:10%;
+}
+
+#read_title{
+    width:100%; height:50rem;
+    display : block;
+    margin : auto;
+
+    position    : absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+
+    display     : flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 7rem;
+}
+
+.goto_board{
+
+    width:50%; height:50%;
+    position:absolute;
+    right:10%; top: 50%;
+    transform: translate(-20%,-50%);
+
+    display     : flex;
+    justify-content: right;
+    align-items: end;
+    
+    margin-bottom:0%;
+
+    font-size:2rem;
+    font-family:"NotoSans";
+    font-style:italic;
+}
+
+#article{
+    display:block;
+    border-bottom:1px solid darkgrey;
+}
+
+#article div{
+    margin:auto;
+}
+
+#writer{
+    width:80%; height:60px;
+    padding:0.5rem 10% 0.5rem 10%;
+
+    display     : flex;
+    justify-content: left;
+    align-items: center;
+
+    font-size : 3rem;
+}
+
+#writer p{
+    text-align:left;
+    width:100%; height:60%;
+    border-bottom:1px solid darkgrey;
+
+    z-index: 5;
+    cursor : pointer;
+}
+
+#image{
+    width:100%;
+}
+
+#image img{
+    width:50%;
+    height:auto;
+}
+
+#content{
+    width:80%; height:auto;
+    padding:2rem 10% 2rem 10%;
+
+    display     : flex;
+    justify-content: left;
+    align-items: center;
+
+    font-size : 2rem;
+}
+
+#hash_tag{
+    width:80%; height:auto;
+    padding:1rem 10% 1rem 10%;
+
+    display     : flex;
+    justify-content: left;
+    align-items: center;
+
+    font-size : 1.5rem;
+    font-weight: bold;
+    color : #B19FFF;
+}
+
+#read_info {
+    width:90%; height:2rem;
+    padding:1rem 5% 1rem 5%;
+
+    font-size : 1.4rem;
+
+    display     : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#read_info div{
+    width:25%;
+    height:100%;
+    display     : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#read_info #comment_count{
+    width:20%;
+    float:left;
+    border-right:1px solid darkgrey;
+    
+}
+#read_info #hit_count{
+    width:25%;
+    float:left;
+    border-right:1px solid darkgrey;
+}
+#read_info #time_stamp{
+    width:40%;
+    float:right;
+    border-right:1px solid darkgrey;
+}
+#read_info #modify{
+    width:15%;
+    float:right;
+    font-weight: bold;
+}
+
+form{
+    width:80%; height:auto;
+    padding:2rem 10% 2rem 10%;
+
+    display     : flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-size : 1.75rem;
+}
+
+form #comment_input{
+    width: 70%; height: 4rem;
+    margin-left:0%;
+    margin-right:10%;
+
+    border:none;
+    border-radius: 1px;
+    border:solid 1px darkgrey;
+
+    font-family: "JejuMyeongjo";
+}
+
+.form_btn{
+    width:20%; height: 4rem;
+    margin-right: 0%;
+
+    font-family: "JejuMyeongjo";
+    font-weight: 500;
+    font-size: 1.6rem;
+
+    border-radius: 1px;
+}
+
+#comment_list table{
+    width:80%; height: auto;
+    margin:auto;
+
+    font-family: "JejuMyeongjo";
+}
+
+#comment_list p table{
+    width:100%;
+    height:90%;
+
+    position    : absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#comment_list thead, #comment_list tbody{
+    width:100%;
+    height:auto;
+}
+
+#comment_list thead th{
+    font-size:1.75rem;
+    text-align:left;
+
+    width:69%;
+    padding-left:1%;
+    
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+#comment_list thead td{
+    font-size:1.25rem;
+    text-align:right;
+
+    width:28%;
+    padding-right:2%;
+    border-left: 1px solid darkgrey;
+    
+    padding-top:1rem;
+    padding-bottom:1rem;
+}
+
+#comment_list tbody td{
+    font-size:1.5rem;
+    text-align:left;
+
+    width:99%;
+    padding-left:1%;
+
+    padding-top:1rem;
+    padding-bottom:1.5rem;
+    
+    border-bottom : 1px solid darkgrey;
+}
+
+footer{
+    width:100%;
+    height:20rem;
+}

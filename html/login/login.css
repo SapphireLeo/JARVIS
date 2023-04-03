@@ -1,0 +1,46 @@
+#login_wrap .forgetpw { 
+    width: 100%;
+    height: 16%;
+    margin : auto;
+    text-align: left;
+    font-size: 1.25rem;
+    cursor: pointer; 
+}
+
+#login_wrap{
+    width: 500px; height: 60%; 
+}
+@media (max-width: 1000px){
+    #login_wrap{
+        width: 50%; height: 60%; 
+    }
+}
+
+#login_title{
+    width: 100%;
+    height: 30%;
+    font-size: 8rem;
+}
+
+#login_form{
+    width: 100%;
+    height: 55%;
+    font-size: 2rem;
+    display:block;
+}
+
+#login_form p{
+    width: 100%;
+    height:28%;
+    display:block;
+}
+
+.goto_register{
+    width : 100%;
+    height : 10%;
+    font-size: 1.5rem;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
