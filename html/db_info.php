@@ -1,5 +1,5 @@
 <?php
-    $db = new mysqli("localhost", "bookswap", "sweteam#6", "bookswap");
+    $db = new mysqli("localhost", "jarvis", "database#6", "jarvis");
 
     function sq($query) {
         global $db;
